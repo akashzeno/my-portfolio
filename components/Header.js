@@ -9,7 +9,12 @@ export default function Header() {
 		<header className={`${styles.header} center`}>
 			<h3>
 				{homepage ? (
-					<a href={homepage} target="_blank" className="link">
+					<a
+						href={homepage}
+						target="_blank"
+						rel="noopener noreferrer"
+						className="link"
+					>
 						{title}
 					</a>
 				) : (
