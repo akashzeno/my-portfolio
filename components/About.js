@@ -20,7 +20,7 @@ export default function About() {
 
 			<div className={`${styles.about__contact} center`}>
 				{resume && (
-					<a href={resume} target="_blank">
+					<a href={resume} target="_blank" rel="noopener noreferrer">
 						<span
 							type="button"
 							className={`btn btn__outline ${styles.btn__outline}`}
@@ -35,6 +35,7 @@ export default function About() {
 						{social.github && (
 							<a
 								target="_blank"
+								rel="noopener noreferrer"
 								href={social.github}
 								aria-label="github"
 								className={`link link__icon ${styles.link__icon}`}
@@ -46,6 +47,7 @@ export default function About() {
 						{social.linkedin && (
 							<a
 								target="_blank"
+								rel="noopener noreferrer"
 								href={social.linkedin}
 								aria-label="linkedin"
 								className={`link link__icon ${styles.link__icon}`}
