@@ -21,7 +21,7 @@ const projects = [
 	{
 		name: "Next Blog",
 		description:
-			"A custom blog application with CRUD features and firebase Backend to process and save data.",
+			"A custom blog application with CRUD features, Authentication and firebase Backend to process and save data.",
 		stack: ["NextJS", "React", "Firebase", "Postcss", "Tailwindcss"],
 		sourceCode: "https://github.com/akashzeno/next-blog",
 		livePreview: "https://next-blog-x.vercel.app/",
