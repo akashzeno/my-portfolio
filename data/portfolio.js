@@ -19,6 +19,35 @@ const about = {
 
 const projects = [
 	{
+		name: "Next Blog",
+		description:
+			"A custom blog application with CRUD features and firebase Backend to process and save data.",
+		stack: ["NextJS", "React", "Firebase", "Postcss", "Tailwindcss"],
+		sourceCode: "https://github.com/akashzeno/next-blog",
+		livePreview: "https://next-blog-x.vercel.app/",
+		projectImage: "/images/next-blog.png",
+	},
+	{
+		name: "International Space Station Tracker",
+
+		description:
+			"A ISS tracker application that show current location of ISS on World Map.",
+		stack: ["HTML", "CSS", "JavaScript"],
+		sourceCode:
+			"https://github.com/akashzeno/international-space-station-tracker-web",
+		livePreview: "https://international-space-station-tracker-web.vercel.app/",
+		projectImage: "/images/international-space-station-tracker-web.png",
+	},
+	{
+		name: "BlackJack Game",
+		description:
+			"A awesome blackjack game that is also optimized for mobile devices.",
+		stack: ["HTML", "CSS", "JavaScript"],
+		sourceCode: "https://github.com/akashzeno/blackjack",
+		livePreview: "https://blackjack-five.vercel.app/",
+		projectImage: "/images/blackjack.png",
+	},
+	{
 		name: "Music Player",
 		description:
 			"A custom UI music player application that plays music of user's choice and a beautiful animation in the background.",
@@ -36,26 +65,7 @@ const projects = [
 		livePreview: "https://beatbox-app-seven.vercel.app/",
 		projectImage: "/images/beatbox-app.png",
 	},
-	{
-		name: "BlackJack Game",
-		description:
-			"A awesome blackjack game that is also optimized for mobile devices.",
-		stack: ["HTML", "CSS", "JavaScript"],
-		sourceCode: "https://github.com/akashzeno/blackjack",
-		livePreview: "https://blackjack-five.vercel.app/",
-		projectImage: "/images/blackjack.png",
-	},
-	{
-		name: "International Space Station Tracker",
 
-		description:
-			"A ISS tracker application that show current location of ISS on World Map.",
-		stack: ["HTML", "CSS", "JavaScript"],
-		sourceCode:
-			"https://github.com/akashzeno/international-space-station-tracker-web",
-		livePreview: "https://international-space-station-tracker-web.vercel.app/",
-		projectImage: "/images/international-space-station-tracker-web.png",
-	},
 	{
 		name: "Monsterbook",
 		description:
@@ -65,15 +75,7 @@ const projects = [
 		livePreview: "https://monsterbook.vercel.app/",
 		projectImage: "/images/monsterbook.png",
 	},
-	{
-		name: "Custom Blog Website",
-		description:
-			"A custom blog application with CRUD features and custom Backend to process data.",
-		stack: ["HTML", "CSS", "JavaScript", "NodeJS"],
-		sourceCode: "https://github.com/akashzeno/blog-website-v",
-		livePreview: "https://blog-website-v.vercel.app/",
-		projectImage: "/images/blog-website-v.png",
-	},
+
 	{
 		name: "Math Sprint Game",
 		description:
