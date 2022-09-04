@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+.light {
+	/* body bg*/
+	--clr-bg: #0e1420;
+	/* card bg */
+	--card-bg: #111827;
+	/* skills stack bg */
+	--clr-bg-alt: #ffec9e;
+	/* nav, icons color, paragraph color, copyright text color */
+	--clr-fg: #ffffff;
+	/* h1, h2 of big name || project h2 and stack colors */
+	--clr-fg-alt: #ffec9e;
+	/* email button border and big name color */
+	--clr-primary: #ff809f;
+	/* card shadow */
+	--shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 * {
 	padding: 0;
 	margin: 0;
@@ -65,57 +82,40 @@ button {
 	background-color: var(--clr-bg);
 }
 
-.light-original {
-	/* body bg: */
+/* .light-original {
+	body bg:
 	--clr-bg: #fcfcfc;
-	/* skills stack bg */
+	skills stack bg
 	--clr-bg-alt: #fff;
-	/* icons color, paragraph color, copyright text color */
+	icons color, paragraph color, copyright text color
 	--clr-fg: #555;
-	/* h1, h2, project stack colors */
+	h1, h2, project stack colors
 	--clr-fg-alt: #444;
-	/* email button border and big name color */
+	email button border and big name color
 	--clr-primary: #2978b5;
-	/* card shadow */
+	card shadow
 	--shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+} */
 
-.light-theme-1 {
-	/* body bg*/
+/* .light-theme-1 {
+	body bg
 	--clr-bg: #3c4064;
-	/* card bg */
+	card bg
 	--card-bg: #685b85;
-	/* skills stack bg */
+	skills stack bg
 	--clr-bg-alt: #ffec9e;
-	/* nav, icons color, paragraph color, copyright text color */
+	nav, icons color, paragraph color, copyright text color
 	--clr-fg: #ffffff;
-	/* h1, h2 of big name || project h2 and stack colors */
+	h1, h2 of big name || project h2 and stack colors
 	--clr-fg-alt: #ffec9e;
-	/* email button border and big name color */
+	email button border and big name color
 	--clr-primary: #ff809f;
-	/* card shadow */
+	card shadow
 	--shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
 		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
+} */
 
-.light {
-	/* body bg*/
-	--clr-bg: #0e1420;
-	/* card bg */
-	--card-bg: #111827;
-	/* skills stack bg */
-	--clr-bg-alt: #ffec9e;
-	/* nav, icons color, paragraph color, copyright text color */
-	--clr-fg: #ffffff;
-	/* h1, h2 of big name || project h2 and stack colors */
-	--clr-fg-alt: #ffec9e;
-	/* email button border and big name color */
-	--clr-primary: #ff809f;
-	/* card shadow */
-	--shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
-.dark {
+/* .dark {
 	--clr-bg: #23283e;
 	--clr-bg-alt: #2a2f4c;
 	--clr-fg: #bdbddd;
@@ -123,7 +123,7 @@ button {
 	--clr-primary: #90a0d9;
 	--shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
 		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
+} */
 
 ::-moz-selection {
 	background: var(--clr-primary);
