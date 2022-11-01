@@ -56,6 +56,16 @@ const projects = [
 		livePreview: "https://music-player-dusky.vercel.app/",
 		projectImage: "/images/music-player.png",
 	},
+
+	{
+		name: "Monsterbook",
+		description:
+			"A FaceBook for monsters using RoboHash API with search features",
+		stack: ["NextJS", "React", "TypeScript"],
+		sourceCode: "https://github.com/akashzeno/monsterbook",
+		livePreview: "https://monsterbook.vercel.app/",
+		projectImage: "/images/monsterbook.png",
+	},
 	{
 		name: "Beatbox App",
 		description:
@@ -64,16 +74,6 @@ const projects = [
 		sourceCode: "https://github.com/akashzeno/beatbox-app",
 		livePreview: "https://beatbox-app-seven.vercel.app/",
 		projectImage: "/images/beatbox-app.png",
-	},
-
-	{
-		name: "Monsterbook",
-		description:
-			"A FaceBook for monsters with search feature using RoboHash API",
-		stack: ["NextJS", "React"],
-		sourceCode: "https://github.com/akashzeno/monsterbook",
-		livePreview: "https://monsterbook.vercel.app/",
-		projectImage: "/images/monsterbook.png",
 	},
 
 	{
