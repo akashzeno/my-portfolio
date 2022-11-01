@@ -11,8 +11,8 @@ export default function ProjectContainer({ project }) {
 				className={styles.appImg}
 				src={project.projectImage}
 				alt="App Image"
-				width={1280}
-				height={800}
+				width={1280 / 4}
+				height={800 / 4}
 			></Image>
 			<h3 className={styles.projectName}>{project.name}</h3>
 			<p className={styles.project__description}>{project.description}</p>

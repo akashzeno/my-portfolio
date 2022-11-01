@@ -22,30 +22,36 @@ export default function Navbar() {
 			>
 				{projects.length ? (
 					<li className={styles.nav__list_item}>
-						<Link href="#projects">
-							<a onClick={toggleNavList} className="link link__nav">
-								Projects
-							</a>
+						<Link
+							href="#projects"
+							onClick={toggleNavList}
+							className="link link__nav"
+						>
+							Projects
 						</Link>
 					</li>
 				) : null}
 
 				{skills.length ? (
 					<li className={styles.nav__list_item}>
-						<Link href="#skills">
-							<a onClick={toggleNavList} className="link link__nav">
-								Skills
-							</a>
+						<Link
+							href="#skills"
+							onClick={toggleNavList}
+							className="link link__nav"
+						>
+							Skills
 						</Link>
 					</li>
 				) : null}
 
 				{contact.email ? (
 					<li className={styles.nav__list_item}>
-						<Link href="#contact">
-							<a onClick={toggleNavList} className="link link__nav">
-								Contact
-							</a>
+						<Link
+							href="#contact"
+							onClick={toggleNavList}
+							className="link link__nav"
+						>
+							Contact
 						</Link>
 					</li>
 				) : null}

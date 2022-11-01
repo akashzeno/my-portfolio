@@ -1,11 +1,13 @@
 .project {
-	padding: 2em;
+	padding: 3rem;
 	margin: 0 auto;
 	text-align: center;
 	box-shadow: var(--shadow);
 	transition: transform 0.2s linear;
 	border-radius: 0.5rem;
 	background-color: var(--card-bg);
+	max-width: 450px;
+	position: relative;
 }
 
 .project:hover {
@@ -38,6 +40,15 @@
 	border-radius: 0.5rem;
 }
 
-.projectName{
-    margin-top: 0.625rem;
+.projectName {
+	margin-top: 0.625rem;
+}
+
+@media (max-width: 440px) {
+	.project {
+		padding: 2rem 1rem;
+	}
+	.appImg {
+		max-width: calc(320px * 0.9);
+	}
 }
