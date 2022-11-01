@@ -19,6 +19,24 @@ const about = {
 
 const projects = [
 	{
+		name: "Ecom Clothing",
+		description:
+			"A E-commerce Clothing WebApp with Authentication, Payment using Stripe and Firebase Backend to process and save data.",
+		stack: ["NextJS", "React", "Redux", "Redux-Saga", "Firebase"],
+		sourceCode: "https://github.com/akashzeno/ecom-clothing",
+		livePreview: "http://ecom-clothing.vercel.app/",
+		projectImage: "/images/ecom_clothing.png",
+	},
+	{
+		name: "Coffee Store Locator - Astral Cafe",
+		description:
+			"A Coffee Store Locator near you using GeoLocation API, FourSquare API and Unsplash API",
+		stack: ["NextJS", "React", "AirTable"],
+		sourceCode: "https://github.com/akashzeno/coffee-store-locator",
+		livePreview: "https://coffee-store-locator-x.vercel.app/",
+		projectImage: "/images/astral_cafe.png",
+	},
+	{
 		name: "Next Blog",
 		description:
 			"A custom blog application with CRUD features, Authentication (Users can add posts after Sign-In) and Firebase Backend to process and save data.",
